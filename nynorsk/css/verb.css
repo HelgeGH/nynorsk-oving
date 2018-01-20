@@ -1,0 +1,115 @@
+/*Red: #F44336 #FFEBEE #FFCDD2 #EF9A9A #E57373 #EF5350 #F44336 #E53935 #D32F2F #C62828 #B71C1C #FF8A80 #FF5252 #FF1744 #D50000 */
+/*Indigo: #3F51B5 #E8EAF6 #C5CAE9 #9FA8DA #7986CB #5C6BC0 #3F51B5 #3949AB #303F9F #283593 #1A237E #8C9EFF #536DFE #3D5AFE #304FFE */
+
+[class*="col-"] {
+    border: none;
+    text-align: center;
+}
+
+/*menyen*/
+#menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #ff1744;
+    width: 100%;
+    margin-left: -10px;
+    padding: none;
+
+}
+
+#menu [class*="col-"] {
+    text-align: left;
+    padding: 0 0 0 80px;
+    color: #fafafa;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#choose_verbtid div.verbtider div {
+    border: 1px solid #eaeaea;
+    background-color: #fefefe;
+    padding: 30px;
+}
+
+#choose_verbtid div.verbtider div:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+#play {
+    position: fixed;
+    background-color: #3f51b5;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 12px 24px;
+    top: 110px;
+    right: 40px;
+}
+
+img {
+    margin-top: 100px;
+    opacity: 0.8;
+}
+
+/*spillet*/
+#choose_verbtid, #main_game {
+    margin-top: 120px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 47px;
+    margin-bottom: 1px;
+    outline: none;
+    padding-left: 8px;
+    border: 1px solid #999;
+    margin: -1px;
+}
+
+#frame .game_row {
+    border: 1px solid #eaeaea;
+    background-color: #fefefe;
+}
+
+#help .row {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    background-color: #fafafa;
+}
+
+#help .highlight {
+    font-weight: bold;
+    background-color: #fefefe;
+}
+
+input[type="text"].fail {
+    border: 1px solid #c00;
+    color: #c00;
+}
+
+input[type="text"].riktig {
+    border: 1px solid #0c0;
+    color: #0c0;
+}
+
+input[type=button], input[type=submit], input[type=reset], button {
+    background-color: #ff1744;
+    border: none;
+    color: #ffebee;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*ikke så forstyrrende*/
+address {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+
+#fafafa
